@@ -84,7 +84,7 @@ function Callout({ children, variant = 'default' }: { children: React.ReactNode;
 function PullQuote({ children }: { children: React.ReactNode }) {
   const { ref, visible } = useReveal(0.2)
   return (
-    <div ref={ref} className={`py-20 transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+    <div ref={ref} className={`py-12 transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
       <div className="border-l-4 pl-8" style={{ borderColor: '#C97855' }}>
         <blockquote
           className="font-medium"
@@ -342,11 +342,13 @@ const SahayCaseStudy = () => {
         <section className="max-w-4xl mx-auto px-6 mb-32">
           <SectionLabel>The turning point</SectionLabel>
 
-          <PullQuote>
-            People don't need a better way to find contractors. They need confidence before deciding whether they need one.
-          </PullQuote>
-
           <Reveal>
+            <h2 className="text-3xl font-bold mb-8" style={{ color: '#3D3228' }}>
+              Research changed the entire direction.
+            </h2>
+          </Reveal>
+
+          <Reveal delay={50}>
             <div className="space-y-6 text-lg leading-relaxed" style={{ maxWidth: '60ch', color: '#9A8B7A' }}>
               <p>
                 Initially, we believed the problem was: <em>"People need a better way to find service providers."</em>
@@ -357,7 +359,7 @@ const SahayCaseStudy = () => {
             </div>
           </Reveal>
 
-          <Reveal delay={50}>
+          <Reveal delay={75}>
             <div className="border-l-4 rounded-r-2xl p-6 my-8" style={{ backgroundColor: 'rgba(201,120,85,0.06)', borderColor: '#C97855' }}>
               <p className="text-lg italic leading-relaxed" style={{ color: '#3D3228' }}>
                 "Not knowing whether to call a professional or try it myself. Not trusting people I don't know. Fear of getting overcharged by someone I found online."
@@ -366,7 +368,7 @@ const SahayCaseStudy = () => {
             </div>
           </Reveal>
 
-          <Reveal delay={75}>
+          <Reveal delay={100}>
             <div className="space-y-6 text-lg leading-relaxed" style={{ maxWidth: '60ch', color: '#9A8B7A' }}>
               <p className="text-xl font-medium" style={{ color: '#3D3228' }}>
                 The real problem: "People need confidence before deciding whether they need a service provider at all."
@@ -376,6 +378,10 @@ const SahayCaseStudy = () => {
               </p>
             </div>
           </Reveal>
+
+          <PullQuote>
+            People don't need a better way to find contractors. They need confidence before deciding whether they need one.
+          </PullQuote>
 
           <Reveal delay={100}>
             <div className="grid md:grid-cols-2 gap-6 mt-12">
@@ -575,7 +581,7 @@ const SahayCaseStudy = () => {
                   Originally, we wanted to collect extensive homeowner information upfront, including home age, systems, past repairs, and appliance inventory. Testing revealed this created too much friction. Users abandoned or rushed through it.
                 </p>
                 <p>
-                  I helped rethink this approach. Instead of overwhelming users with questions, I designed a lightweight onboarding that feeds into a MyHome experience. AI summarizes important information after onboarding, reducing effort while preserving personalization.
+                  A teammate flagged the friction first, and the team collectively decided to rethink the onboarding strategy. My contribution was designing the experience that supported this new direction: a lightweight onboarding flow that feeds into a MyHome dashboard, where AI synthesizes user inputs into a personalized home summary — reducing manual effort while preserving personalization.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-4 mt-8">
