@@ -484,7 +484,7 @@ const SahayCaseStudy = () => {
           <Reveal delay={150}>
             <div className="rounded-2xl overflow-hidden mt-8 border" style={{ borderColor: '#E8E2D8' }}>
               <img
-                src="/Research(4).png"
+                src={`${import.meta.env.BASE_URL}research-ia.png`}
                 alt="Information architecture diagram and user flow"
                 className="w-full h-auto"
               />
