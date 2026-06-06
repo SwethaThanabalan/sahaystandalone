@@ -549,16 +549,15 @@ const SahayCaseStudy = () => {
           </Reveal>
 
           <Reveal delay={100}>
-            <div className="w-full rounded-2xl overflow-hidden border" style={{ borderColor: '#E8E2D8' }}>
-              <video
-                className="w-full"
-                controls
-                playsInline
-                preload="metadata"
-              >
-                <source src="/Capstone.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className="w-full rounded-2xl overflow-hidden border" style={{ borderColor: '#E8E2D8', paddingBottom: '56.25%', position: 'relative' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/O67w4i0cTFg"
+                title="Sahay Interactive Prototype"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </Reveal>
         </section>
