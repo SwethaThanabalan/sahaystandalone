@@ -218,7 +218,7 @@ const SahayCaseStudy = () => {
 
           <Reveal delay={150}>
             <p className="text-lg leading-relaxed" style={{ maxWidth: '60ch', color: '#9A8B7A' }}>
-              Instead of immediately building a solution, I recruited two teammates and set out to understand whether this problem extended beyond my own experience.
+              Instead of immediately building a solution, I partnered with two teammates and set out to understand whether this problem extended beyond my own experience.
             </p>
           </Reveal>
 
@@ -229,7 +229,7 @@ const SahayCaseStudy = () => {
           </Reveal>
 
           <Callout variant="insight">
-            My role: I initiated the project, identified the opportunity, recruited the team, and drove research strategy from day one.
+            My role: I initiated the project, identified the opportunity, partnered with the team, and drove research strategy from day one.
           </Callout>
         </section>
 
@@ -700,7 +700,7 @@ const SahayCaseStudy = () => {
                   <h3 className="text-lg font-semibold" style={{ color: '#3D3228' }}>Strategy & Research</h3>
                   <ul className="space-y-3" style={{ color: '#9A8B7A' }}>
                     <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Initiated the project from personal insight</li>
-                    <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Recruited and assembled the team</li>
+                    <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Partnered with and assembled the team</li>
                     <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Defined the research strategy</li>
                     <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Conducted interviews and synthesis</li>
                     <li className="flex items-start gap-2"><span style={{ color: '#C97855' }}>→</span> Participated in product strategy decisions</li>
@@ -855,7 +855,7 @@ const SahayCaseStudy = () => {
                   </div>
                   <div>
                     <p className="text-sm font-semibold mb-2" style={{ color: '#C97855' }}>Strategic initiative</p>
-                    <p className="text-sm leading-relaxed" style={{ color: '#B5A89A' }}>Identified the opportunity, recruited the team, drove research, and designed key experiences. Ownership from concept to validation.</p>
+                    <p className="text-sm leading-relaxed" style={{ color: '#B5A89A' }}>Identified the opportunity, partnered with the team, drove research, and designed key experiences. Ownership from concept to validation.</p>
                   </div>
                 </div>
               </div>
